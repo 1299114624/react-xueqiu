@@ -12,8 +12,6 @@ import Four from './pages/four/Four'
 
 import './App.css'
 
-import API from './api'
-import 'whatwg-fetch'
 
 
 export default class App extends Component{
@@ -39,21 +37,6 @@ export default class App extends Component{
             </Router>
         )
 
-    }
-    componentDidMount(){
-        // console.log(fetch)
-        // //请求左边侧边栏的频道数据
-        // fetch(API.CHANNELS_API)
-        // .then(response => {
-        //     return response.json();
-        // })
-        // .then(result => {
-        //     // this.setState({channels: result.data});
-        //     console.log(result)
-        // })
-        // .catch(error => {
-        //     console.log(error);
-        // })
     }
 }
 
