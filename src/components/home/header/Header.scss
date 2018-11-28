@@ -1,4 +1,37 @@
 #home_header{
-    height: 2.33rem;
-    background-color: lightblue;
+    background:url(../../../assets/bg.png) no-repeat;
+    background-size: 100%;
+    background-position: 50%;
+    width: 100%;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+    box-shadow: none;
+    border-bottom: 1px solid gainsboro;
+    .banner__title{
+        display: flex;
+        height: 0.7rem;
+        justify-content: center;
+        .banner_logo{
+            background: url(../../../assets/logo.png) no-repeat;
+            width: 1.8rem;
+            background-position:50%;
+            background-size: 100%;
+            margin-left: .2rem;
+        }
+        .banner__title__content{
+            font-size:0.3rem;
+            border-left: 1px solid #3471d5;
+            margin-left: 0.32rem;
+            padding-left: 0.32rem;
+            align-self: center;
+            color: #3471d5;
+        }
+    }
+    .banner__btns{
+        display: flex;
+        border: 1px solid;
+        justify-content: center;
+        .banner_btns_left{}
+        .banner_btns_right{}
+    }
 }
