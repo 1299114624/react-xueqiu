@@ -31,19 +31,19 @@ export default class Timeline extends Component{
             </div>
         )
     }
-    componentDidMount(){
-        //请求左边侧边栏的频道数据
-        fetch(API.HOME_NEWS_API)
-        .then(response => {
-            return response.json();
-        })
-        .then(result => {
-            // this.setState({channels: result.data});
-            console.log(result)
-        })
-        .catch(error => {
-            console.log(error);
-        })
-    }
+    // componentDidMount(){
+    //     //请求左边侧边栏的频道数据
+    //     fetch(API.HOME_NEWS_API)
+    //     .then(response => {
+    //         return response.json();
+    //     })
+    //     .then(result => {
+    //         // this.setState({channels: result.data});
+    //         console.log(result)
+    //     })
+    //     .catch(error => {
+    //         console.log(error);
+    //     })
+    // }
     
 }
